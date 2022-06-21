@@ -3,10 +3,16 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { AttributeDirective } from './Directive/attribute.directive';
+import { StructuralDirective } from './Directive/structural.directive';
+import { StructComponent } from './struct/struct.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AttributeDirective,
+    StructuralDirective,
+    StructComponent,
   ],
   imports: [
     BrowserModule,
